@@ -2,6 +2,7 @@ package com.hhoss.bean;
 
 import com.hhoss.jour.Logger;
 import com.hhoss.ksid.CapNum;
+import com.hhoss.lang.Beans;
 
 public interface Node<T extends Node<T>> extends java.io.Serializable{	
 	
@@ -152,10 +153,12 @@ public interface Node<T extends Node<T>> extends java.io.Serializable{
 	 * @param field name case-insensitive
 	 * @param value may nul
 	 * @return T
+	 * @throws RuntimeException 
 	 */
 	@SuppressWarnings("unchecked")
-	default T let(String field, Object value){
-		Bean.let(this, field, value);
+	default T let(String field, Object value) throws RuntimeException{
+		Beans.setFieldValue(this, field, value);
+		//Bean.let(this, field, value);
 		return (T)this;
 	}	
 	

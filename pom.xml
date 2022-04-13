@@ -4,7 +4,7 @@
 	<parent>
 	  <artifactId>maven-base</artifactId>
 	  <groupId>com.hhoss</groupId>
-	  <version>0.9.7</version>
+	  <version>0.9.8</version>
 	</parent>
 	<artifactId>hhoss-data</artifactId>
 	<name>hhoss data</name>

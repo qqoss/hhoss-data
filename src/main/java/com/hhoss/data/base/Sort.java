@@ -1,13 +1,11 @@
 package com.hhoss.data.base;
 
-import com.hhoss.Constant;
-
 /**
  * @author kejun 
  * Trend for order by 
  * <s>old</s> : <del>System Object reference type</del>
  */
-public enum Sort implements Constant {
+public enum Sort {
 	ASC("asc", 1),   DESC("desc", -1), 
 	RISE("rise", 1), DOWN("down", -1);
 
