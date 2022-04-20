@@ -1,6 +1,7 @@
 package com.hhoss.data;
 
 import com.hhoss.jour.Logger;
+import com.hhoss.mold.Item;
 
 public class ItemTest {
 

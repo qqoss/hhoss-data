@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Date;
 
+import com.hhoss.mold.Item;
 import com.hhoss.util.HMap;
 
 public class BeansTest extends Item<BeansTest> {

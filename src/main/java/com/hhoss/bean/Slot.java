@@ -1,6 +1,6 @@
 package com.hhoss.bean;
 
-import com.hhoss.data.Item;
+import com.hhoss.mold.Item;
 
 public class Slot extends Item<Slot>{
 	//ds1-string,dt3-time,dn5-int,dn6-long,dn7-float,dn8-double,do9-other-obj
